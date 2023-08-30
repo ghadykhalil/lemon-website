@@ -1,0 +1,11 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+body,
+html {
+  background-color: #edefee !important;
+}
+
+p{
+  font-size: 16pt;
+}
