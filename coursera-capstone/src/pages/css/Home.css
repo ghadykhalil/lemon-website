@@ -1,0 +1,10 @@
+.about {
+  width: 276px;
+  height: 338px;
+  position: absolute;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 5px;
+  }
+}
