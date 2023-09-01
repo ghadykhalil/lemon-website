@@ -5,13 +5,13 @@ import Col from "react-bootstrap/esm/Col";
 const About = () => {
   return (
     <>
-    <h1 className="text-center text-primary m-0">About Us</h1>
+    <h1 className="text-center text-primary m-0 fw-bolder">About Us</h1>
       <Container className="mt-5">
         <Row>
           <Col md={6} lg={7} xl={8}>
             <div>
-              <h1>Little Lemon</h1>
-              <h3>Chicago</h3>
+              <h1 className="fw-bolder">Little Lemon</h1>
+              <h3 className="fw-bold">Chicago</h3>
             </div>
             <p>
               This is the description about the lemon restaurant who serves good

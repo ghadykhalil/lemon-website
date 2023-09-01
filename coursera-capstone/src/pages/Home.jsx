@@ -9,7 +9,7 @@ import "./css/Home.css";
 const Home = () => {
   return (
     <>
-      <h1 className="text-center text-primary bg-white m-0">Home</h1>
+      <h1 className="text-center text-primary bg-white m-0 fw-bolder">Home</h1>
       <Row className="m-0 bg-white p-5 d-flex justify-content-center">
         <Col
           md={6}
@@ -93,8 +93,8 @@ const Home = () => {
         <Row>
           <Col md={6} lg={7} xl={8}>
             <div>
-              <h1>Little Lemon</h1>
-              <h3>Chicago</h3>
+              <h1 className="fw-bolder">Little Lemon</h1>
+              <h3 className="fw-bold">Chicago</h3>
             </div>
             <p>
               This is the description about the lemon restaurant who serves good
