@@ -7,6 +7,7 @@ import Menu from '../pages/Menu'
 import Reservations from '../pages/Reservations'
 import Orders from '../pages/Orders'
 import Login from '../pages/Login'
+import NotFound from '../pages/NotFound'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/Reservations" element={<Reservations />} />
         <Route path="/Orders" element={<Orders />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
   )
