@@ -1,15 +1,15 @@
-import Col from "react-bootstrap/esm/Col";
-import Container from "react-bootstrap/esm/Container";
-import Row from "react-bootstrap/esm/Row";
-import { Link } from "react-router-dom";
-import "./css/Footer.css";
+import Col from 'react-bootstrap/esm/Col'
+import Container from 'react-bootstrap/esm/Container'
+import Row from 'react-bootstrap/esm/Row'
+import { Link } from 'react-router-dom'
+import './css/Footer.css'
 
 const Footer = () => {
   return (
     <footer>
       <Container className="mt-5 border-top p-5">
         <Row className="">
-          <Col md={12} lg={3} >
+          <Col md={12} lg={3}>
             <img src="assets/Restaurant.jpg" width="100%" height="100%" />
           </Col>
           <Col className="mt-5">
@@ -66,7 +66,7 @@ const Footer = () => {
         </Row>
       </Container>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

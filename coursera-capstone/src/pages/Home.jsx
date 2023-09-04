@@ -1,10 +1,10 @@
-import Container from "react-bootstrap/esm/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import CustomCard from "../components/CustomCard";
-import Review from "../components/Review";
-import "./css/Home.css";
+import Container from 'react-bootstrap/esm/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
+import CustomCard from '../components/CustomCard'
+import Review from '../components/Review'
+import './css/Home.css'
 
 const Home = () => {
   return (
@@ -120,7 +120,7 @@ const Home = () => {
         </Row>
       </Container>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

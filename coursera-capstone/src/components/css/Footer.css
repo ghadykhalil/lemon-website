@@ -1,12 +1,14 @@
 a{
-    text-decoration: none;
+    text-decoration: none !important; 
 }
 
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: start;
 }
+
 
 li{
     font-weight: bold;

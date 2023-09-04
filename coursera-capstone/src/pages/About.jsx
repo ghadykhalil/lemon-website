@@ -1,11 +1,11 @@
-import Container from "react-bootstrap/esm/Container";
-import Row from "react-bootstrap/esm/Row";
-import Col from "react-bootstrap/esm/Col";
+import Container from 'react-bootstrap/esm/Container'
+import Row from 'react-bootstrap/esm/Row'
+import Col from 'react-bootstrap/esm/Col'
 
 const About = () => {
   return (
     <>
-    <h1 className="text-center text-primary m-0 fw-bolder">About Us</h1>
+      <h1 className="text-center text-primary m-0 fw-bolder">About Us</h1>
       <Container className="mt-5">
         <Row>
           <Col md={6} lg={7} xl={8}>
@@ -37,7 +37,7 @@ const About = () => {
         </Row>
       </Container>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About
